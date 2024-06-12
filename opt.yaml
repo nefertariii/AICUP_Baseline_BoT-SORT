@@ -2,12 +2,12 @@ weights: pretrained/yolov7.pt
 cfg: yolov7/cfg/training/yolov7-AICUP.yaml
 data: yolov7/data/AICUP.yaml
 hyp: ./yolov7/data/hyp.scratch.custom.yaml
-epochs: 30
-batch_size: 2
-img_size:
+epochs: 30                # 這是自己看要設定多少 沒原本 
+batch_size: 2             # 同上 
+img_size:                 # 同上
 - 1280
 - 1280
-rect: false
+rect: false               # 以下沒動
 resume: false
 nosave: false
 notest: false
